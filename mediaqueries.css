@@ -1,0 +1,39 @@
+@media(max-width:960px){
+    ul{
+        gap: 1rem;
+    }
+}
+@media(max-width:767px){
+    .nav-menu,
+    ul,
+    .images{
+       flex-direction: column;
+    }
+    .nav-menu{
+        gap: 5rem;
+        background: white;
+        padding: 2rem 5rem;
+        position: absolute;
+        top: 10%;
+        left: 0;
+        height: 100vh;
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .images{
+        gap: 5rem;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+    }
+    .hero p,
+    .btn-container{
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
